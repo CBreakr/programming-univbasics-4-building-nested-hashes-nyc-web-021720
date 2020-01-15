@@ -34,5 +34,5 @@ def monopoly_with_fourth_tier
 end
 
 def createMortgageHash(val)
-  return {:mortgage}
+  return {:mortgage => val}
 end
