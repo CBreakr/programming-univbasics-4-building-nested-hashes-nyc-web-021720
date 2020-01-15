@@ -29,10 +29,10 @@ end
 def monopoly_with_fourth_tier
   monopoly = monopoly_with_third_tier
   railroad_names = monopoly[:railroads][:names]
-  railroad_names[:reading_railroad] = createMortgageHash(100)
-  railroad_names[:pennsylvania_railroad] = createMortgageHash(200)
-  railroad_names[:b_and_o_railroad] = createMortgageHash(400)
-  railroad_names[:shortline_railroad] = createMortgageHash(800)
+  railroad_names[:reading_railroad] = createMortgageHash("$100")
+  railroad_names[:pennsylvania_railroad] = createMortgageHash("$200")
+  railroad_names[:b_and_o_railroad] = createMortgageHash("$400")
+  railroad_names[:shortline_railroad] = createMortgageHash("$800")
   return monopoly
 end
 
