@@ -28,6 +28,11 @@ end
 
 def monopoly_with_fourth_tier
   monopoly = monopoly_with_third_tier
+  railroad_names = monopoly[:railroad][:names]
   
   return monopoly
+end
+
+def createMortgageHash(val)
+  return {:mortgage}
 end
